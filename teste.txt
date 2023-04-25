@@ -1,0 +1,5 @@
+program LexicoPaulo;
+
+begin
+  writeln('Eu sou um código em pascal para compilar no JFlex do Paulo!');
+end.

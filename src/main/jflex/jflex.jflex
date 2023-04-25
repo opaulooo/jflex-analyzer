@@ -78,11 +78,11 @@ class Valor {
 
     @Override
     public String toString() {
-        return "Valor{" +
-                "valorInteiro=" + valorInteiro +
-                ", valorDecimal=" + valorDecimal +
-                ", valorIdentificador='" + valorIdentificador + '\'' +
-                '}';
+        return "\n\tValor:" +
+                "\n\t\tINT: " + valorInteiro +
+                "\n\t\tDEC: " + valorDecimal +
+                "\n\t\tID: '" + valorIdentificador + '\'' +
+                '\n';
     }
 }
 
@@ -144,12 +144,12 @@ class Token {
 
     @Override
     public String toString() {
-        return "Token{" +
-                "classe=" + classe +
-                ", valor=" + valor +
-                ", linha=" + linha +
-                ", coluna=" + coluna +
-                '}';
+        return "\nToken: " +
+                "\nClasse: " + classe +
+                "\nValor: " + valor +
+                "\nLinha: " + linha +
+                "\nColuna: " + coluna +
+                "\n";
     }
 }
 
